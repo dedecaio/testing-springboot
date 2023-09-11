@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61940db5-bd81-4f3f-9523-08372b0be242" name="Changes" comment="foobar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/SimpleMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/ArrayCompareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTest.java" afterDir="false" />
+    <list default="true" id="61940db5-bd81-4f3f-9523-08372b0be242" name="Changes" comment="Making the second session">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTestS4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +16,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -46,7 +49,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "session3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,7 +66,7 @@
       <recent name="com.caioprogramador" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayCompareTest.test">
+  <component name="RunManager" selected="JUnit.SimpleMathTestS4.testDivision">
     <configuration name="ArrayCompareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula01" />
       <extension name="coverage">
@@ -95,22 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FooBarTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aula01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.caioprogramador.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.caioprogramador" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.FooBarTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SimpleMathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula01" />
       <extension name="coverage">
@@ -122,6 +109,22 @@
       <option name="PACKAGE_NAME" value="com.caioprogramador" />
       <option name="MAIN_CLASS_NAME" value="com.caioprogramador.SimpleMathTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMathTestS4.testDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caioprogramador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.caioprogramador" />
+      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.SimpleMathTestS4" />
+      <option name="METHOD_NAME" value="testDivision(double,double,double)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleMathTestS4.testDivision" />
         <item itemvalue="JUnit.ArrayCompareTest.test" />
         <item itemvalue="JUnit.ArrayCompareTest" />
         <item itemvalue="JUnit.SimpleMathTest.testDivisionByZero" />
         <item itemvalue="JUnit.SimpleMathTest" />
-        <item itemvalue="JUnit.FooBarTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693944255627</updated>
       <workItem from="1693944256763" duration="1118000" />
-      <workItem from="1694457660781" duration="4850000" />
+      <workItem from="1694457660781" duration="5647000" />
     </task>
     <task id="LOCAL-00001" summary="foobar">
       <option name="closed" value="true" />
@@ -171,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694457764289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Making the second session">
+      <option name="closed" value="true" />
+      <created>1694462785654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694462785654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +202,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="foobar" />
-    <option name="LAST_COMMIT_MESSAGE" value="foobar" />
+    <MESSAGE value="Making the second session" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making the second session" />
   </component>
 </project>
