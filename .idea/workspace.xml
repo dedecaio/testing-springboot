@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61940db5-bd81-4f3f-9523-08372b0be242" name="Changes" comment="Making the second session">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTestS4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="61940db5-bd81-4f3f-9523-08372b0be242" name="Changes" comment="Making the fourth session">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTestS4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTestS4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "session3",
+    "git-widget-placeholder": "session4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -164,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693944255627</updated>
       <workItem from="1693944256763" duration="1118000" />
-      <workItem from="1694457660781" duration="5647000" />
+      <workItem from="1694457660781" duration="5824000" />
     </task>
     <task id="LOCAL-00001" summary="foobar">
       <option name="closed" value="true" />
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694462785654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Making the fourth session">
+      <option name="closed" value="true" />
+      <created>1694463455865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694463455865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +210,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="foobar" />
     <MESSAGE value="Making the second session" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making the second session" />
+    <MESSAGE value="Making the fourth session" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making the fourth session" />
   </component>
 </project>

@@ -31,7 +31,7 @@ class SimpleMathTestS4 {
     public static Stream<Arguments> testDivisionInputParameters(){
         return Stream.of(
                 Arguments.of(6.2D,2D,3.1D),
-                Arguments.of(59D,2D,29.5D),
+                Arguments.of(59.5D,2D,29.52D),
                 Arguments.of(10D,3D,3.33D)
         );
     }
