@@ -1,12 +1,9 @@
 package com.caioprogramador;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
-@DisplayName("Test Math Operations in SimpleMath Class")
+//@DisplayName("Test Math Operations in SimpleMath Class")
 class SimpleMathTest {
     SimpleMath math;
     @BeforeEach
@@ -92,7 +89,7 @@ class SimpleMathTest {
     }
 
 
-    @Test
+    @RepeatedTest(3)
     @DisplayName("Test sqrt(38.44) = 6.2")
     void testSquare(){
         double firstNumber = 38.44D;

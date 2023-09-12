@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61940db5-bd81-4f3f-9523-08372b0be242" name="Changes" comment="Making the fourth session">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testDivision.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/caioprogramador/FooBarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/FooBarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTestS4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/SimpleMathTestS4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "session4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;session4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -65,22 +70,7 @@
       <recent name="com.caioprogramador" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleMathTestS4.testDivision">
-    <configuration name="ArrayCompareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aula01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.caioprogramador.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.caioprogramador" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.ArrayCompareTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FooBarTest">
     <configuration name="ArrayCompareTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula01" />
       <extension name="coverage">
@@ -93,6 +83,21 @@
       <option name="MAIN_CLASS_NAME" value="com.caioprogramador.ArrayCompareTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FooBarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caioprogramador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.caioprogramador" />
+      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.FooBarTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMathTest.testDivisionByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.caioprogramador in aula01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula01" />
       <extension name="coverage">
         <pattern>
@@ -137,20 +142,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.caioprogramador" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.SimpleMathTest" />
-      <option name="METHOD_NAME" value="testDivisionByZero" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FooBarTest" />
+        <item itemvalue="JUnit.com.caioprogramador in aula01" />
+        <item itemvalue="JUnit.SimpleMathTest" />
         <item itemvalue="JUnit.SimpleMathTestS4.testDivision" />
         <item itemvalue="JUnit.ArrayCompareTest.test" />
-        <item itemvalue="JUnit.ArrayCompareTest" />
-        <item itemvalue="JUnit.SimpleMathTest.testDivisionByZero" />
-        <item itemvalue="JUnit.SimpleMathTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,8 @@
       <option name="presentableId" value="Default" />
       <updated>1693944255627</updated>
       <workItem from="1693944256763" duration="1118000" />
-      <workItem from="1694457660781" duration="5824000" />
+      <workItem from="1694457660781" duration="5867000" />
+      <workItem from="1694545521738" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="foobar">
       <option name="closed" value="true" />
@@ -189,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694463455865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Making the fourth session">
+      <option name="closed" value="true" />
+      <created>1694463514209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694463514209</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
