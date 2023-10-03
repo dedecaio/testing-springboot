@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61940db5-bd81-4f3f-9523-08372b0be242" name="Changes" comment="Making the fourth session">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/business/CourseBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/service/IPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/stubs/CourseServiceStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/TDDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/business/CourseBusinessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/business/CourseBusinessMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/business/CourseBusinessMockWithBDDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/business/ListBDDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/caioprogramador/business/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/business/CourseBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/business/CourseBusiness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/stubs/CourseServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/stubs/CourseServiceStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "Mock",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Mockito&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.caioprogramador.service" />
@@ -80,9 +78,12 @@
       <recent name="com.caioprogramador.business" />
       <recent name="com.caioprogramador" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.caioprogramador.business" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAFooBarStudent">
-    <configuration name="CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAFooBarStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CourseBusinessMockWithBDDTest.testDeleteCoursesNotRelatedToSpring_CapturingArguments_Should_CallMethod_deleteCourse">
+    <configuration name="CourseBusinessMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula01" />
       <extension name="coverage">
         <pattern>
@@ -91,83 +92,82 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.caioprogramador.business" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.business.CourseBusinessTest" />
-      <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingAFooBarStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aula01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.caioprogramador.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.caioprogramador.business" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.business.CourseBusinessTest" />
-      <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingAStub" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TDDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aula01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.caioprogramador.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.caioprogramador" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.TDDTest" />
+      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.business.CourseBusinessMockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TDDTest.testCreatePerson_WhenSuccess_ShouldContainValidFieldsInReturnedPersonObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseBusinessMockWithBDDTest.testDeleteCoursesNotRelatedToSpring_CapturingArguments_Should_CallMethod_deleteCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.caioprogramador.*" />
+          <option name="PATTERN" value="com.caioprogramador.business.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.caioprogramador" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.TDDTest" />
-      <option name="METHOD_NAME" value="testCreatePerson_WhenSuccess_ShouldContainValidFieldsInReturnedPersonObject" />
+      <option name="PACKAGE_NAME" value="com.caioprogramador.business" />
+      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.business.CourseBusinessMockWithBDDTest" />
+      <option name="METHOD_NAME" value="testDeleteCoursesNotRelatedToSpring_CapturingArguments_Should_CallMethod_deleteCourse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TDDTest.testCreatePerson_WithNullEmail_ShouldThrowIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseBusinessMockWithBDDTest.testDeleteCoursesNotRelatedToSpring_UsingMockitoVerifyThenShould_Should_CallMethod_deleteCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.caioprogramador.*" />
+          <option name="PATTERN" value="com.caioprogramador.business.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.caioprogramador" />
-      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.TDDTest" />
-      <option name="METHOD_NAME" value="testCreatePerson_WithNullEmail_ShouldThrowIllegalArgumentException" />
+      <option name="PACKAGE_NAME" value="com.caioprogramador.business" />
+      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.business.CourseBusinessMockWithBDDTest" />
+      <option name="METHOD_NAME" value="testDeleteCoursesNotRelatedToSpring_UsingMockitoVerifyThenShould_Should_CallMethod_deleteCourse" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseBusinessMockWithBDDTest.testDeleteCoursesNotRelatedToSpring_UsingMockitoVerify_Should_CallMethod_deleteCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caioprogramador.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.caioprogramador.business" />
+      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.business.CourseBusinessMockWithBDDTest" />
+      <option name="METHOD_NAME" value="testDeleteCoursesNotRelatedToSpring_UsingMockitoVerify_Should_CallMethod_deleteCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caioprogramador.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.caioprogramador.business" />
+      <option name="MAIN_CLASS_NAME" value="com.caioprogramador.business.ListTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAFooBarStudent" />
-        <item itemvalue="JUnit.CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAStub" />
-        <item itemvalue="JUnit.TDDTest" />
-        <item itemvalue="JUnit.TDDTest.testCreatePerson_WithNullEmail_ShouldThrowIllegalArgumentException" />
-        <item itemvalue="JUnit.TDDTest.testCreatePerson_WhenSuccess_ShouldContainValidFieldsInReturnedPersonObject" />
+        <item itemvalue="JUnit.CourseBusinessMockWithBDDTest.testDeleteCoursesNotRelatedToSpring_CapturingArguments_Should_CallMethod_deleteCourse" />
+        <item itemvalue="JUnit.CourseBusinessMockWithBDDTest.testDeleteCoursesNotRelatedToSpring_UsingMockitoVerifyThenShould_Should_CallMethod_deleteCourse" />
+        <item itemvalue="JUnit.CourseBusinessMockWithBDDTest.testDeleteCoursesNotRelatedToSpring_UsingMockitoVerify_Should_CallMethod_deleteCourse" />
+        <item itemvalue="JUnit.ListTest" />
+        <item itemvalue="JUnit.CourseBusinessMockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +184,7 @@
       <workItem from="1694545521738" duration="2002000" />
       <workItem from="1694625241788" duration="6416000" />
       <workItem from="1696268805049" duration="1941000" />
+      <workItem from="1696332959773" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="foobar">
       <option name="closed" value="true" />
